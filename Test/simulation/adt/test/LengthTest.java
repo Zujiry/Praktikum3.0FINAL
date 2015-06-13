@@ -2,10 +2,10 @@ package simulation.adt.test;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import simulation.adt.interfaces.Length;
-import simulation.adt.interfaces.Speed;
-import simulation.adt.interfaces.TimeDiff;
-import simulation.adt.classes.Values;
+import simulation.adt.physics_value.interfaces.Length;
+import simulation.adt.physics_value.interfaces.Speed;
+import simulation.adt.physics_value.interfaces.TimeDiff;
+import simulation.adt.physics_value.classes.Values;
 
 public class LengthTest {
     Length length  = Values.lengthInM(0.0);

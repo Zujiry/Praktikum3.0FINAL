@@ -2,10 +2,10 @@ package simulation.adt.test;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import simulation.adt.interfaces.Mass;
-import simulation.adt.interfaces.Acc;
-import simulation.adt.interfaces.Force;
-import simulation.adt.classes.Values;
+import simulation.adt.physics_value.interfaces.Mass;
+import simulation.adt.physics_value.interfaces.Acc;
+import simulation.adt.physics_value.interfaces.Force;
+import simulation.adt.physics_value.classes.Values;
 import simulation.adt.units.MassUnit;
 
 public class MassTest {

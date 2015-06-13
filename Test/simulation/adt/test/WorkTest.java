@@ -2,10 +2,10 @@ package simulation.adt.test;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import simulation.adt.interfaces.Work;
-import simulation.adt.interfaces.Power;
-import simulation.adt.interfaces.TimeDiff;
-import simulation.adt.classes.Values;
+import simulation.adt.physics_value.interfaces.Work;
+import simulation.adt.physics_value.interfaces.Power;
+import simulation.adt.physics_value.interfaces.TimeDiff;
+import simulation.adt.physics_value.classes.Values;
 
 public class WorkTest {
     Work work  = Values.workInJ(0.0);

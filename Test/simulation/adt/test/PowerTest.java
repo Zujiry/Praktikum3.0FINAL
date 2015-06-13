@@ -2,11 +2,11 @@ package simulation.adt.test;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import simulation.adt.interfaces.Power;
-import simulation.adt.interfaces.TimeDiff;
-import simulation.adt.interfaces.Force;
-import simulation.adt.interfaces.Work;
-import simulation.adt.classes.Values;
+import simulation.adt.physics_value.interfaces.Power;
+import simulation.adt.physics_value.interfaces.TimeDiff;
+import simulation.adt.physics_value.interfaces.Force;
+import simulation.adt.physics_value.interfaces.Work;
+import simulation.adt.physics_value.classes.Values;
 
 public class PowerTest {
     Power power = Values.powerInW(0.0);
